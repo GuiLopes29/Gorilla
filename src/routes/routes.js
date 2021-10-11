@@ -6,7 +6,7 @@ const microsControll = require('../controllers/micros/microsController')
 const cdbControll = require('../controllers/cdb/cdbController')
 
 router.get('/', microsControll.home);
-router.get('/cdb', cdbControll.precosCDB);
+router.post('/cdb', cdbControll.precosCDB);
 
 module.exports = {
     routes: router
