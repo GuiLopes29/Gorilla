@@ -8,5 +8,5 @@ app.use(logger.errorLog);
 
 app.listen(config.port, () => {
     cdi();
-    console.log('Hauszapi executando em ' + config.url + config.port)
+    console.log('Gorilaapi executando em ' + config.url + config.port)
 });
