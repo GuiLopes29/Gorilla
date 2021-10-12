@@ -180,6 +180,8 @@ yarn test
 ```
 
 e você terá o resultado dos testes automatizados das funções:
+<br>
+(Obs: Infelizmente não consegui encontrar o problema para não conseguir receber 'codigo 200' nos testes)
 
 ![image](https://user-images.githubusercontent.com/33187657/136871206-11b7170c-d3e1-4926-95a8-3ae224e2f3dc.png)
 
