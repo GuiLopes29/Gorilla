@@ -17,18 +17,16 @@ const precosCDB = async (req, res, next) => {
             investmentDateYear
         } = handleIncomeData(req.body);
 
+
         // Checagem se houve alguma variavel recebida invalida
-        if (!checkInvestmentDate) {
+        if (!checkInvestmentDate)
             return res.status(400).send({ error: 'Verifique o inicio da data do investimento' });
-        }
 
-        if (!checkCurrentDate) {
+        if (!checkCurrentDate)
             return res.status(400).send({ error: 'Verifique a data atual' });
-        }
 
-        if (typeof (cdbRate) !== 'number') {
+        if (typeof (cdbRate) !== 'number')
             return res.status(400).send({ error: 'CDB Rate precisa ser um numero' });
-        }
 
         // Funcao principal de calculo do CDB
         const cdiResponse = calculateCDBPosFixado({
