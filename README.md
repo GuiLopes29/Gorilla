@@ -172,11 +172,11 @@ ex.:
 + Essa aplicação consta com testes para suas principais funções desenvolvidos com o JEST. Para rodas os testes, apenas rode o comando:
 + 
 ```
-npm run jest
+npm run test
 ```
 ou
 ```
-yarn jest
+yarn test
 ```
 
 e você terá o resultado dos testes automatizados das funções:
